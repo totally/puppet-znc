@@ -1,0 +1,25 @@
+# What: 
+
+ZNC puppet module.  Will setup ZNC to authenticate against SASL (via cyrusauth module).
+
+# Requirement/Dependencies:
+
+puppetlabs-apt
+totally/sasl
+
+# Usage:
+
+include znc
+
+# Variables:
+
+Have a look at znc::config.  You'll probably want to set some of those values.
+
+# Licence:
+
+MIT
+
+# Warantee:
+
+None at all
+
